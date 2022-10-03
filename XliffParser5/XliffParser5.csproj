@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\sunamo.notmine\XliffParser\GlobalSuppressions.cs" Link="GlobalSuppressions.cs" />
+    <Compile Include="..\..\sunamo.notmine\XliffParser\IXlfExporter.cs" Link="IXlfExporter.cs" />
+    <Compile Include="..\..\sunamo.notmine\XliffParser\UpdateResult.cs" Link="UpdateResult.cs" />
+    <Compile Include="..\..\sunamo.notmine\XliffParser\XlfDataType.cs" Link="XlfDataType.cs" />
+    <Compile Include="..\..\sunamo.notmine\XliffParser\XlfDocument.cs" Link="XlfDocument.cs" />
+    <Compile Include="..\..\sunamo.notmine\XliffParser\XlfFile.cs" Link="XlfFile.cs" />
+    <Compile Include="..\..\sunamo.notmine\XliffParser\XlfHeader.cs" Link="XlfHeader.cs" />
+    <Compile Include="..\..\sunamo.notmine\XliffParser\XlfNote.cs" Link="XlfNote.cs" />
+    <Compile Include="..\..\sunamo.notmine\XliffParser\XlfState.cs" Link="XlfState.cs" />
+    <Compile Include="..\..\sunamo.notmine\XliffParser\XlfTool.cs" Link="XlfTool.cs" />
+    <Compile Include="..\..\sunamo.notmine\XliffParser\XlfTransUnit.cs" Link="XlfTransUnit.cs" />
+    <Compile Include="..\..\sunamo.notmine\XliffParser\XmlUtil.cs" Link="XmlUtil.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\sunamoWithoutDep5\SunamoExceptions5\SunamoExceptions5.csproj" />
+    <ProjectReference Include="..\fmdev.ResX5\fmdev.ResX5.csproj" />
+  </ItemGroup>
+
+</Project>

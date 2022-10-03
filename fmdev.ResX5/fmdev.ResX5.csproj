@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ResXResourceReader.NetStandard" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\sunamoWithoutDep5\SunamoExceptions5\SunamoExceptions5.csproj" />
+  </ItemGroup>
+
+</Project>
